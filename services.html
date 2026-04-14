@@ -1,115 +1,143 @@
 <!DOCTYPE html>
-<html lang="en-GB">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Services | Fuller's Digital</title>
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services | Fuller's Digital</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="site-header">
-    <div class="container nav-container">
-      <a href="index.html" class="logo">
-        <span class="logo-mark">FD</span>
-        <span class="logo-text">Fuller's Digital</span>
-      </a>
-      <button class="nav-toggle" aria-label="Toggle navigation">
-        <span></span><span></span><span></span>
-      </button>
-      <nav class="main-nav">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="services.html" class="active">Services</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
 
-  <main>
-    <section class="page-hero">
-      <div class="container">
-        <h1>Services</h1>
-        <p>From first concept to launch and beyond, we offer everything you need for a modern web presence.</p>
-      </div>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <span class="blue-text">FULLER'S</span> DIGITAL
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html" class="active">Services</a></li>
+                <li><a href="index.html#portfolio">Portfolio</a></li>
+                <li><a href="contact.html" class="cta-nav">Get a Quote</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Services Hero -->
+    <section class="services-hero">
+        <div class="container">
+            <span class="subtitle">WHAT WE DO</span>
+            <h1>High-Performance Digital <span class="highlight">Solutions</span></h1>
+            <p>We blend cutting-edge design with strategic functionality to help your business dominate online.</p>
+        </div>
     </section>
 
-    <section class="section">
-      <div class="container grid two">
-        <article class="card">
-          <h2>Custom website design</h2>
-          <p>
-            Bespoke designs tailored to your brand, audience, and goals. No generic templates—just thoughtful,
-            strategic design.
-          </p>
-          <ul class="list">
-            <li>Brand-aligned layouts and colour palettes</li>
-            <li>Mobile-first, responsive design</li>
-            <li>Clear user journeys and calls to action</li>
-          </ul>
-        </article>
+    <!-- Detailed Services Breakdown -->
+    <section class="services-detailed">
+        <div class="container">
+            
+            <!-- Service 1 -->
+            <div class="service-row">
+                <div class="service-text">
+                    <span class="service-number">01</span>
+                    <h2>Bespoke Web Design</h2>
+                    <p>We don't use boring, generic templates. Every website we build is designed from scratch to reflect your unique brand identity and convert visitors into paying customers.</p>
+                    <ul class="service-features">
+                        <li>Custom UI/UX Design</li>
+                        <li>Mobile & Tablet Responsive</li>
+                        <li>Interactive Prototypes</li>
+                    </ul>
+                </div>
+                <div class="service-visual">
+                    <div class="visual-box">UI/UX Layout Placeholder</div>
+                </div>
+            </div>
 
-        <article class="card">
-          <h2>Development & build</h2>
-          <p>
-            Clean, modern front-end builds that are fast, accessible, and easy to maintain.
-          </p>
-          <ul class="list">
-            <li>Standards-compliant HTML, CSS, and JavaScript</li>
-            <li>Performance-focused builds</li>
-            <li>Integration with your existing tools where needed</li>
-          </ul>
-        </article>
-      </div>
+            <!-- Service 2 -->
+            <div class="service-row reverse">
+                <div class="service-text">
+                    <span class="service-number">02</span>
+                    <h2>E-Commerce Engines</h2>
+                    <p>Turn your passion into profit with a high-converting online store. We build seamless shopping experiences on Shopify and WooCommerce optimized for speed and sales.</p>
+                    <ul class="service-features">
+                        <li>Secure Payment Gateways</li>
+                        <li>Inventory Management</li>
+                        <li>One-Page Checkout Optimization</li>
+                    </ul>
+                </div>
+                <div class="service-visual">
+                    <div class="visual-box">Store Layout Placeholder</div>
+                </div>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="service-row">
+                <div class="service-text">
+                    <span class="service-number">03</span>
+                    <h2>SEO & Speed Optimization</h2>
+                    <p>A beautiful website is useless if no one can find it. We bake search engine optimization and speed performance into the very core of your website from day one.</p>
+                    <ul class="service-features">
+                        <li>Google PageSpeed Optimization</li>
+                        <li>Technical On-Page SEO</li>
+                        <li>Keyword Strategy & Integration</li>
+                    </ul>
+                </div>
+                <div class="service-visual">
+                    <div class="visual-box">Data & SEO Placeholder</div>
+                </div>
+            </div>
+
+        </div>
     </section>
 
-    <section class="section section-alt">
-      <div class="container grid two">
-        <article class="card">
-          <h2>Optimisation & SEO foundations</h2>
-          <p>
-            We lay the groundwork so your site is discoverable and easy to index by search engines.
-          </p>
-          <ul class="list">
-            <li>On-page SEO best practices</li>
-            <li>Semantic markup and structured content</li>
-            <li>Performance and accessibility considerations</li>
-          </ul>
-        </article>
-
-        <article class="card">
-          <h2>Ongoing support & iterations</h2>
-          <p>
-            As your business evolves, your website should too. We offer flexible support options.
-          </p>
-          <ul class="list">
-            <li>Content updates and refinements</li>
-            <li>Design tweaks and new sections</li>
-            <li>Regular reviews and improvement suggestions</li>
-          </ul>
-        </article>
-      </div>
+    <!-- Process Section -->
+    <section class="process-section">
+        <div class="container">
+            <h2 class="section-title">Our 4-Step Process</h2>
+            <div class="grid-4">
+                <div class="process-card">
+                    <div class="proc-num">1</div>
+                    <h3>Discover</h3>
+                    <p>We learn about your business, goals, and target audience.</p>
+                </div>
+                <div class="process-card">
+                    <div class="proc-num">2</div>
+                    <h3>Design</h3>
+                    <p>We create custom visual layouts for your approval.</p>
+                </div>
+                <div class="process-card">
+                    <div class="proc-num">3</div>
+                    <h3>Develop</h3>
+                    <p>We write clean, fast code to bring the design to life.</p>
+                </div>
+                <div class="process-card">
+                    <div class="proc-num">4</div>
+                    <h3>Launch</h3>
+                    <p>We optimize, test, and push your new site live to the world.</p>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section class="section">
-      <div class="container section-cta">
-        <h2>Not sure what you need yet?</h2>
-        <p>Tell us where your business is today and we’ll recommend a sensible starting point.</p>
-        <a href="contact.html" class="btn primary">Talk to us</a>
-      </div>
+    <!-- Final CTA -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready for a website that actually works?</h2>
+            <p>Let's talk about your project and get you a custom quote.</p>
+            <a href="contact.html" class="btn btn-white">Claim Your Free Consultation</a>
+        </div>
     </section>
-  </main>
 
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <p class="footer-logo">Fuller's Digital</p>
-      <p class="footer-copy">© <span id="year"></span> Fuller's Digital. All rights reserved.</p>
-    </div>
-  </footer>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Fuller's Digital Web Designers. All rights reserved.</p>
+        </div>
+    </footer>
 
-  <script src="script.js"></script>
 </body>
+</html>
 </html>
 
 

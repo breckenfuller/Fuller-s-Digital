@@ -1,161 +1,83 @@
 <!DOCTYPE html>
-<html lang="en-GB">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Fuller's Digital | Modern Web Design</title>
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fuller's Digital | Premium Web Design</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="site-header">
-    <div class="container nav-container">
-      <a href="index.html" class="logo">
-        <span class="logo-mark">FD</span>
-        <span class="logo-text">Fuller's Digital</span>
-      </a>
-      <button class="nav-toggle" aria-label="Toggle navigation">
-        <span></span><span></span><span></span>
-      </button>
-      <nav class="main-nav">
-        <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
 
-  <main>
-    <section class="hero">
-      <div class="container hero-inner">
-        <div class="hero-copy">
-          <h1>Modern websites for ambitious UK businesses.</h1>
-          <p>
-            Fuller's Digital crafts sleek, high-performing websites that help your business stand out,
-            build trust, and convert visitors into customers.
-          </p>
-          <div class="hero-actions">
-            <a href="contact.html" class="btn primary">Request a quote</a>
-          </div>
-          <p class="hero-subtext">Based in the UK · Owned and founded by Brecken Fuller</p>
-        </div>
-        <div class="hero-panel">
-          <div class="hero-card">
-            <h2>Why work with us?</h2>
-            <ul>
-              <li>Custom, responsive design</li>
-              <li>Fast, SEO-friendly builds</li>
-              <li>Clear communication & timelines</li>
-              <li>Perfect for small and growing businesses</li>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <span class="blue-text">FULLER'S</span> DIGITAL
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="contact.html" class="cta-nav">Get a Quote</a></li>
             </ul>
-          </div>
         </div>
-      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <h1>We Build Digital Experiences That <span class="highlight">Convert.</span></h1>
+            <p>Modern, high-performance web design for businesses that want to lead their industry.</p>
+            <div class="hero-btns">
+                <a href="#portfolio" class="btn btn-primary">View Our Work</a>
+                <a href="#services" class="btn btn-secondary">Our Services</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Our Expertise</h2>
+            <div class="grid">
+                <div class="card">
+                    <div class="icon">💻</div>
+                    <h3>Custom Web Design</h3>
+                    <p>Unique, responsive designs tailored specifically to your brand identity.</p>
+                </div>
+                <div class="card">
+                    <div class="icon">🚀</div>
+                    <h3>SEO & Performance</h3>
+                    <p>Optimizing your site to load lightning fast and rank at the top of Google.</p>
+                </div>
+                <div class="card">
+                    <div class="icon">🛒</div>
+                    <h3>E-Commerce</h3>
+                    <p>High-converting online stores built on Shopify or WooCommerce.</p>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section class="section" id="highlights">
-      <div class="container">
-        <h2>What we do best</h2>
-        <div class="grid three">
-          <article class="card">
-            <h3>Bespoke web design</h3>
-            <p>Tailored designs that reflect your brand and speak directly to your ideal customers.</p>
-          </article>
-          <article class="card">
-            <h3>Conversion-focused builds</h3>
-            <p>Clear user journeys, strong calls to action, and layouts that drive enquiries and sales.</p>
-          </article>
-          <article class="card">
-            <h3>Ongoing support</h3>
-            <p>We don’t disappear after launch—support, tweaks, and improvements as your business grows.</p>
-          </article>
+    <!-- Call to Action -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to transform your digital presence?</h2>
+            <p>Let's build something incredible together.</p>
+            <a href="contact.html" class="btn btn-white">Start Your Project</a>
         </div>
-      </div>
     </section>
 
-    <section class="section section-alt">
-      <div class="container split">
-        <div>
-          <h2>Designed for real businesses, not just portfolios.</h2>
-          <p>
-            Whether you’re a local service provider, an agency, or an online retailer, we design with your
-            customers in mind. Every page has a purpose, every element has a job.
-          </p>
-          <p>
-            From first impression to final click, we focus on clarity, trust, and ease of use.
-          </p>
-          <a href="services.html" class="text-link">Explore our services →</a>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Fuller's Digital Web Designers. All rights reserved.</p>
         </div>
-        <div class="stat-panel">
-          <div class="stat">
-            <span class="stat-number">100%</span>
-            <span class="stat-label">Responsive layouts</span>
-          </div>
-          <div class="stat">
-            <span class="stat-number">SEO</span>
-            <span class="stat-label">Best-practice foundations</span>
-          </div>
-          <div class="stat">
-            <span class="stat-number">UK</span>
-            <span class="stat-label">Based & time-zone aligned</span>
-          </div>
-        </div>
-      </div>
-    </section>
+    </footer>
 
-    <section class="section">
-      <div class="container">
-        <h2>Recent projects</h2>
-        <div class="grid three">
-          <article class="card project-card">
-            <h3>Harbour & Co. Consulting</h3>
-            <p>Clean, professional site for a B2B consultancy with clear service breakdowns and lead forms.</p>
-          </article>
-          <article class="card project-card">
-            <h3>Northshore Fitness Studio</h3>
-            <p>Bold visuals, class timetables, and online booking integration for a local fitness brand.</p>
-          </article>
-          <article class="card project-card">
-            <h3>Fleetwood Artisan Bakery</h3>
-            <p>Warm, inviting design with menus, gallery, and click-and-collect enquiries.</p>
-          </article>
-        </div>
-        <div class="section-cta">
-          <a href="portfolio.html" class="btn ghost">See full portfolio</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section-accent">
-      <div class="container cta-banner">
-        <div>
-          <h2>Ready for a website that actually works for you?</h2>
-          <p>Tell us about your business and we’ll come back with a clear, no-nonsense proposal.</p>
-        </div>
-        <a href="contact.html" class="btn primary light">Start a project</a>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <div>
-        <p class="footer-logo">Fuller's Digital</p>
-        <p class="footer-meta">Owned and founded by Brecken Fuller · UK based</p>
-      </div>
-      <div class="footer-links">
-        <a href="about.html">About</a>
-        <a href="services.html">Services</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </div>
-      <p class="footer-copy">© <span id="year"></span> Fuller's Digital. All rights reserved.</p>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
+
 
